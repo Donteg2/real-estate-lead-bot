@@ -1,36 +1,38 @@
 # Documentation — Real Estate Lead Bot
 
-This folder holds the project documentation.
+This folder holds the project documentation and foundational specifications.
 
 ## Available Documents
 
 | Document | Description |
 |----------|-------------|
 | [OVERVIEW.md](./OVERVIEW.md) | High-level project overview |
+| [PRD.md](./PRD.md) | Product Requirements Document |
+| [DEVELOPMENT_SETUP.md](./DEVELOPMENT_SETUP.md) | Local development setup guide |
 
-## Foundational Specifications
+## Remaining Foundational Specifications
 
-The full set of approved specification documents (PRD, System Architecture, Implementation tracking, Development Setup, Database, API, AI, n8n Workflows, Lead Qualification, UI/UX, Deployment, Testing, Tasks) were originally committed at the repository root.
+The following documents are available in **git history** (original commit `df091c599933fb4cbb10bc2ebb9d164cf8735aa1`) and can be restored on request with clean names:
 
-They have been cleaned from the root to reduce clutter. The complete content remains available in **git history**.
+- System Architecture Document (SAD)
+- IMPLEMENTATION.md
+- Database Specification
+- API Specification
+- AI Specification
+- n8n Workflows Specification
+- Lead Qualification Spec
+- UI-UX Spec
+- Deployment Spec
+- Testing Spec
+- TASK.md
 
-You can restore any of them with:
-
-```bash
-git log --all --full-history -- "*PRD*"
-# or
-git checkout <commit-sha> -- "PRD — Real Estate Lead Bot.md"
-```
-
-Or download from the commit that first added them (`df091c599933fb4cbb10bc2ebb9d164cf8735aa1`).
-
-## Recommended clean structure
+## Recommended Structure
 
 ```text
 docs/
 ├── OVERVIEW.md
 ├── PRD.md
-├── SAD.md                 # System Architecture
+├── SAD.md
 ├── IMPLEMENTATION.md
 ├── DEVELOPMENT_SETUP.md
 ├── DATABASE.md
@@ -44,4 +46,4 @@ docs/
 └── TASK.md
 ```
 
-If you want the full documents restored into `docs/` with clean names, just ask and they can be re-added from history.
+Root is now clean. All specification files have been removed from the repository root.
