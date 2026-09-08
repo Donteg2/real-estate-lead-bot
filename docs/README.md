@@ -1,45 +1,47 @@
 # Documentation — Real Estate Lead Bot
 
-This folder contains (or will contain) the approved foundational documents for the project.
+This folder holds the project documentation.
 
-## Current Specification Documents (root of repository)
+## Available Documents
 
-The following documents currently live at the repository root and should be considered the approved foundational set:
+| Document | Description |
+|----------|-------------|
+| [OVERVIEW.md](./OVERVIEW.md) | High-level project overview |
 
-| Document | Purpose |
-|----------|---------|
-| `PRD — Real Estate Lead Bot.md` | Product Requirements |
-| `System Architecture Document — Real Estate Lead Bot (1).md` | System Architecture (SAD) |
-| `IMPLEMENTATION.md` | Implementation tracking & tasks |
-| `DEVELOPMENT_SETUP.md` | Local development setup |
-| `Database Specification — DATABASE.md` | Database design |
-| `API Specification — API.md` | API contracts |
-| `AI Specification.md` | AI layer |
-| `n8n Workflows Specification.md` | n8n workflows |
-| `LEAD_QUALIFICATION_SPEC.md` | Lead qualification & scoring |
-| `UI-UX-SPEC.md` | Frontend / UX |
-| `DEPLOYMENT_SPEC.md` | Deployment |
-| `TESTING.md` | Testing strategy |
-| `TASK.md` | Task breakdown |
-| `Real Estate Lead bot.md` | High-level overview |
+## Foundational Specifications
 
-## Recommended Structure Going Forward
+The full set of approved specification documents (PRD, System Architecture, Implementation tracking, Development Setup, Database, API, AI, n8n Workflows, Lead Qualification, UI/UX, Deployment, Testing, Tasks) were originally committed at the repository root.
+
+They have been cleaned from the root to reduce clutter. The complete content remains available in **git history**.
+
+You can restore any of them with:
+
+```bash
+git log --all --full-history -- "*PRD*"
+# or
+git checkout <commit-sha> -- "PRD — Real Estate Lead Bot.md"
+```
+
+Or download from the commit that first added them (`df091c599933fb4cbb10bc2ebb9d164cf8735aa1`).
+
+## Recommended clean structure
 
 ```text
 docs/
+├── OVERVIEW.md
 ├── PRD.md
-├── SAD.md                    # System Architecture
-├── DOMAIN.md
+├── SAD.md                 # System Architecture
+├── IMPLEMENTATION.md
+├── DEVELOPMENT_SETUP.md
 ├── DATABASE.md
 ├── API.md
 ├── AI-SPEC.md
 ├── N8N-WORKFLOWS.md
-├── FRONTEND.md / UI-UX.md
-├── IMPLEMENTATION.md
-├── DEVELOPMENT_SETUP.md
+├── LEAD_QUALIFICATION.md
+├── UI-UX.md
 ├── DEPLOYMENT.md
 ├── TESTING.md
 └── TASK.md
 ```
 
-The documents at the root can be moved/renamed into this folder in a future cleanup commit.
+If you want the full documents restored into `docs/` with clean names, just ask and they can be re-added from history.
