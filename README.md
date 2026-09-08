@@ -44,7 +44,7 @@ real-estate-lead-bot/
 │   ├── app/
 │   │   ├── main.py
 │   │   ├── api/
-│   │   ├── models/
+│   │   ├── models/           # Customer, Lead, Conversation, Message, SalesAgent
 │   │   ├── schemas/
 │   │   ├── services/
 │   │   ├── db/
@@ -64,14 +64,14 @@ real-estate-lead-bot/
 │   ├── integration/
 │   └── e2e/
 │
-├── docs/                     # Documentation index
+├── docs/                     # Documentation
+│   ├── OVERVIEW.md
+│   └── README.md
 │
 ├── .env.example
 ├── .gitignore
 └── README.md
 ```
-
-The full set of approved specification documents currently lives at the repository root (PRD, System Architecture, IMPLEMENTATION, DEVELOPMENT_SETUP, Database Spec, API Spec, AI Spec, n8n Workflows Spec, etc.). See `docs/README.md`.
 
 ---
 
@@ -121,19 +121,9 @@ Start your local n8n instance (typically http://localhost:5678) and import/creat
 
 ---
 
-## Key Documents
+## Documentation
 
-| Document | Description |
-|----------|-------------|
-| [PRD](./PRD%20—%20Real%20Estate%20Lead%20Bot.md) | Product Requirements |
-| [System Architecture](./System%20Architecture%20Document%20—%20Real%20Estate%20Lead%20Bot%20(1).md) | SAD – architecture & component boundaries |
-| [IMPLEMENTATION](./IMPLEMENTATION.md) | Task tracking & implementation status |
-| [DEVELOPMENT_SETUP](./DEVELOPMENT_SETUP.md) | Detailed local setup guide |
-| [Database Spec](./Database%20Specification%20—%20DATABASE.md) | Schema & entities |
-| [API Spec](./API%20Specification%20—%20API.md) | API contracts |
-| [AI Spec](./AI%20Specification.md) | AI responsibilities & schemas |
-| [n8n Workflows](./n8n%20Workflows%20Specification.md) | Workflow definitions |
-| [Lead Qualification](./LEAD_QUALIFICATION_SPEC.md) | Scoring & qualification rules |
+See the [`docs/`](./docs/) folder for the project overview and information about the full set of foundational specification documents (they live in git history and can be restored on request).
 
 ---
 
