@@ -8,42 +8,22 @@ This folder holds the project documentation and foundational specifications.
 |----------|-------------|
 | [OVERVIEW.md](./OVERVIEW.md) | High-level project overview |
 | [PRD.md](./PRD.md) | Product Requirements Document |
+| [SAD.md](./SAD.md) | System Architecture Document |
+| [IMPLEMENTATION.md](./IMPLEMENTATION.md) | Implementation tracking & tasks |
 | [DEVELOPMENT_SETUP.md](./DEVELOPMENT_SETUP.md) | Local development setup guide |
 
-## Remaining Foundational Specifications
+## Remaining Documents
 
-The following documents are available in **git history** (original commit `df091c599933fb4cbb10bc2ebb9d164cf8735aa1`) and can be restored on request with clean names:
+The following are being restored with exact original content from the foundational set. They live in git history and local artifacts and will be added with clean names:
 
-- System Architecture Document (SAD)
-- IMPLEMENTATION.md
-- Database Specification
-- API Specification
-- AI Specification
-- n8n Workflows Specification
-- Lead Qualification Spec
-- UI-UX Spec
-- Deployment Spec
-- Testing Spec
+- DATABASE.md
+- API.md
+- AI-SPEC.md
+- N8N-WORKFLOWS.md
+- LEAD_QUALIFICATION.md
+- UI-UX.md
+- DEPLOYMENT.md
+- TESTING.md
 - TASK.md
 
-## Recommended Structure
-
-```text
-docs/
-├── OVERVIEW.md
-├── PRD.md
-├── SAD.md
-├── IMPLEMENTATION.md
-├── DEVELOPMENT_SETUP.md
-├── DATABASE.md
-├── API.md
-├── AI-SPEC.md
-├── N8N-WORKFLOWS.md
-├── LEAD_QUALIFICATION.md
-├── UI-UX.md
-├── DEPLOYMENT.md
-├── TESTING.md
-└── TASK.md
-```
-
-Root is now clean. All specification files have been removed from the repository root.
+Root remains clean. All original root specification files have been removed.
